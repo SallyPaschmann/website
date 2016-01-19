@@ -1,0 +1,32 @@
+.wrapper {
+    width: 800px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 45px;
+}
+
+.image {
+  width: 200px;
+  float: right;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+ul {
+    font-family: helvetica, sans-serif;
+}
+
+.Ausbildung span{
+  display: inline-block;
+  width: 220px;
+}
