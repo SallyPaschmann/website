@@ -1,32 +1,108 @@
-.wrapper {
-    width: 800px;
-    margin-left: auto;
-    margin-right:auto;
-    margin-top: 45px;
+img {
+  width: 100%;
+  height: auto;
 }
 
-.image {
-  width: 200px;
-  float: right;
+#schmetterling-gross {
+  width: 100%;
 }
 
-h1 {
-    font-family: Helvetica, sans-serif;
+#krake-gross {
+  width: 70%;
 }
 
-h3 {
-    font-family: Helvetica, sans-serif;
-}
-
-p {
-    font-family: Helvetica, sans-serif;
+.img-block {
+    display: block;
+    margin: 0 auto;
 }
 
 ul {
-    font-family: helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.Ausbildung span{
+.nav {
+  width: 100%;
   display: inline-block;
-  width: 220px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav__left {
+  float: left;
+}
+
+.nav__right {
+  float: right;
+}
+
+.nav__left li,
+.nav__right li {
+  display: inline-block;
+}
+
+.nav a {
+  font-family: Helvetica, sans-serif;
+  color: #2e2e2e;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#999999;
+}
+
+h1 {
+  font-family: helvetica, sans-serif;
+  color: #2e2e2e;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.headline {
+  text-align: center;
+}
+
+.header {
+  margin-left: 160px;
+  margin-top: 50px;
+}
+
+.text {
+  max-width: 700px;
+  margin-left: 160px;
+  margin-top: 50px;
+}
+
+
+p {
+  font-family: helvetica, sans-serif;
+  color: #2e2e2e;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.krake {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ width: 100%;
+}
+
+.illustration {
+  display: inline-block;
+  margin-left: 160px;
+  width: 49%;
+}
+
+.photo {
+  display: inline-block;
+  margin-left: 160px;
+  max-width: 710px;
+  width: 65%;
 }
