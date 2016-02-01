@@ -1,16 +1,3 @@
-img {
-  width: 100%;
-  height: auto;
-}
-
-#schmetterling-gross {
-  width: 100%;
-}
-
-#krake-gross {
-  width: 70%;
-}
-
 .img-block {
     display: block;
     margin: 0 auto;
@@ -87,22 +74,76 @@ p {
   text-transform: uppercase;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+#schmetterling-gross {
+  width: 100%;
+}
+
+#krake-gross {
+  width: 70%;
+}
+
+#abstand {
+  margin-left: 12px;
+}
+
+#abstand1 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#abstand2 {
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#abstandrechts {
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+#abstandunten {
+  margin-bottom: 12px;
+}
+
 .krake {
   display: block;
   margin-left: auto;
   margin-right: auto;
- width: 100%;
+  max-width: 700px;
+  width: 420px;
 }
 
 .illustration {
-  display: inline-block;
+  display: inline;
   margin-left: 160px;
-  width: 49%;
+  width: 710px;
+  float: left;
 }
 
 .photo {
-  display: inline-block;
+  display: inline;
   margin-left: 160px;
-  max-width: 710px;
-  width: 65%;
+  width: 710px;
+  float: left;
+}
+
+.breite {
+  width: 340px;
+}
+
+.mittel {
+  width: 300px;
+}
+
+.selbstdarstellung {
+  display: inline;
+  margin-left: 160px;
+  width: 696px;
+  float: left;
 }
